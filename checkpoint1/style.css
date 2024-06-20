@@ -1,0 +1,130 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header,footer{
+   min-height: 5vh;
+}
+main{
+    min-height: 80vh;
+}
+.navegacion{
+    background-color: black;
+    display: flex;
+    padding: 5px 10px;
+    justify-content: space-between;
+}
+h1{
+    color: red;
+    font-size: 20px;
+}
+h2{
+    color: white;
+    font-size: 20px;
+}
+.titulos{
+    display: flex;
+    align-items: center;
+}
+nav.navbar a{
+    text-decoration: none;
+    color: white;
+   border-radius: 70px;
+   padding: 7px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+a:hover{
+    background-color: red;
+    font-weight: bold;
+}
+.banner{
+    width: 100%;
+    height: 20vh;
+    object-fit: cover;
+}
+.subtitulo{
+    background-color: rgb(221, 218, 218);
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    
+}
+h4{
+    color: red;
+    font-size: 20px;
+}
+h3{
+    font-size: 20px;
+}
+.imag_main{
+   max-width: 50vh;
+  max-height: 20vh;
+  object-fit: cover;
+ 
+}
+div.imag_main1{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+h5{
+    text-align: center;
+    margin: 10px;
+    font-size: 15px;
+}
+.section1{
+    margin-top: 40px;
+}
+
+.section2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+table,
+tr,
+td,
+th,caption{
+    border: 2px solid black;
+}
+table {
+    text-align: center;
+    font-size: 2vh;
+    border-collapse: collapse;
+    padding: 10px;
+ 
+}
+caption{
+    background-color: black;
+    color: white;
+}
+th,td{
+    background-color: rgba(128, 128, 128, 0.829);
+    color: white;
+    padding: 5px;
+}
+dl{
+    background-color: rgba(128, 128, 128, 0.829) ;
+    border-radius: 20px;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    gap: 7px;
+    color: white;
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
